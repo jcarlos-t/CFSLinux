@@ -3,7 +3,7 @@ project(RedBlackTree_AED)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(RB-Tree main.cpp simulacion.cpp)
+add_executable(RB-Tree main.cpp)
 
 find_package(SFML 2.5 COMPONENTS graphics window REQUIRED)
 if(SFML_FOUND)
